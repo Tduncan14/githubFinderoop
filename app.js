@@ -34,8 +34,9 @@ if(userText !== ''){
 
         else{
             //show profile
-            
+            console.log('repos',data.repos)
           ui.showProfile(data.profile);
+          ui.showRepos(data.repos);
         }
 
       
